@@ -1,0 +1,32 @@
+{
+	"name": "maximniko/manage",
+	"description": "Base abstract code for Yii2 Framework.",
+	"type": "library",
+	"keywords": ["yii2", "yii 2"],
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Maxim Niko",
+			"email": "immaximniko@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/maxim-niko/manage/issues?state=open",
+		"source": "https://github.com/maxim-niko/manage"
+	},
+	"require": {
+		"yiisoft/yii2": "~2.0"
+	},
+	"require-dev": {},
+	"autoload": {
+		"psr-4": {
+			"maximniko\\manage\\": "src/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}

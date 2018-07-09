@@ -1,0 +1,1 @@
+# Base abstract code for yii2
