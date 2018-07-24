@@ -6,7 +6,7 @@
  * Time: 20:59
  */
 
-namespace common\Services;
+namespace MaximNiko;
 
 
 /**
