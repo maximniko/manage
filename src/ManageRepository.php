@@ -1,6 +1,6 @@
 <?php
 
-namespace MaximNiko;
+namespace maximniko\manage;
 
 use yii\db\ActiveRecord;
 use yii\helpers\StringHelper;

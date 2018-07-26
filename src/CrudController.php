@@ -1,6 +1,6 @@
 <?php
 
-namespace MaximNiko;
+namespace maximniko\manage;
 
 use Yii;
 use yii\base\Model;
