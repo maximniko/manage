@@ -21,9 +21,10 @@ class Transaction
      * @throws \yii\db\Exception
      * @throws \Throwable
      */
-    public function wrap(callable $callback)
+    public function wrap(callable $callback, ?\yii\db\Connection $connect = null)
     {
-        $transaction = \Yii::$app->db->beginTransaction();
+        $connection = $connect ?: \Yii::$app->db;
+        $transaction = $connection->beginTransaction();
         try {
             $callback();
             $transaction->commit();
